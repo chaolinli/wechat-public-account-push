@@ -92,26 +92,34 @@ export const USER_CONFIG = {
     {
       name: "老婆1",
       id: "oantg59iQwk8fP5wOvC79QNUjXGY",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      useTemplateId: "fR2ZwPnVnqNUYMQNYPgBwnGIpJ1D77KVGuFBlsg_OJg",
+      province: "湖南",
+      city: "长沙",
+      horoscopeDate: '09-09',
+      horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      festivals: [
+        {"type": "*生日", "name": "霞霞", "year": "1998", "date": "09-09"},
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "生日", "name": "泡泡", "year": "1997", "date": "09-09"},
+        {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "09-20"},
+                 ],
+      customizedDateList: [ {"keyword": "love_day", date: "2022-09-21"},]
     },
     {
       name: "老婆2",
       id: "oantg52XpJ0cXCWaEoPFNDC6n314",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      useTemplateId: "fR2ZwPnVnqNUYMQNYPgBwnGIpJ1D77KVGuFBlsg_OJg",
+      province: "湖南",
+      city: "长沙",
+      horoscopeDate: '09-09',
+      horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      festivals: [{"type": "*生日", "name": "霞霞", "year": "1998", "date": "09-09"},
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "生日", "name": "泡泡", "year": "1997", "date": "09-09"},
+        {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "09-20"},],
+      customizedDateList: [{"keyword": "love_day", date: "2022-09-21"},]
     },
     {
       name: "老婆3",
