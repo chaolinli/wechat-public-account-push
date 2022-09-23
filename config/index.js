@@ -115,7 +115,7 @@ export const USER_CONFIG = {
       horoscopeDate: '07-09',
       horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [{"type": "*生日", "name": "霞霞", "year": "1998", "date": "09-09"},
+      festivals: [{"type": "*生日", "name": "霞霞", "year": "1998", "date": "03-21"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "泡泡", "year": "1997", "date": "07-09"},
         {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "09-20"},],
