@@ -89,6 +89,7 @@ export const USER_CONFIG = {
         {"keyword": "love_day", date: "2022-09-21"},
       ]
     },
+   //**
     {
       name: "老婆1",
       id: "oantg59iQwk8fP5wOvC79QNUjXGY",
@@ -133,6 +134,7 @@ export const USER_CONFIG = {
       festivals: [],
       customizedDateList: []
     },
+    */
     // 你可以不断按格式往下增加
     // ...
   ],
