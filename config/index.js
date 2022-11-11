@@ -89,7 +89,50 @@ export const USER_CONFIG = {
         {"keyword": "love_day", date: "2022-09-21"},
       ]
     },
-   
+    {
+      name: "老婆1",
+      id: "oantg59iQwk8fP5wOvC79QNUjXGY",
+      useTemplateId: "l1sLu3mw-GS-5XDTlb8ByWFGFmcT2huSQup6e4_A2wU",
+      province: "湖南",
+      city: "常德",
+      horoscopeDate: '03-21',
+      horoscopeDateType: '今日',
+      openUrl: "https://wangxinleo.cn",
+      festivals: [
+        {"type": "*生日", "name": "小公主", "year": "1998", "date": "03-21"},
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "生日", "name": "泡泡", "year": "1997", "date": "07-09"},
+        {"type": "节日", "name": "相识纪念日", "year": "2022", "date": "09-20"},
+                 ],
+      customizedDateList: [ {"keyword": "love_day", date: "2022-09-21"},]
+    },
+    {
+      name: "老婆2",
+      id: "oantg52XpJ0cXCWaEoPFNDC6n314",
+      useTemplateId: "l1sLu3mw-GS-5XDTlb8ByWFGFmcT2huSQup6e4_A2wU",
+      province: "湖南",
+      city: "常德",
+      horoscopeDate: '07-09',
+      horoscopeDateType: '今日',
+      openUrl: "https://wangxinleo.cn",
+      festivals: [{"type": "*生日", "name": "小公主", "year": "1998", "date": "03-21"},
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "生日", "name": "泡泡", "year": "1997", "date": "07-09"},
+        {"type": "节日", "name": "相识纪念日", "year": "2022", "date": "09-20"},],
+      customizedDateList: [{"keyword": "love_day", date: "2022-09-21"},]
+    },
+    {
+      name: "老婆3",
+      id: "",
+      useTemplateId: "",
+      province: "",
+      city: "",
+      horoscopeDate: '',
+      horoscopeDateType: '',
+      openUrl: "https://wangxinleo.cn",
+      festivals: [],
+      customizedDateList: []
+    },
     // 你可以不断按格式往下增加
     // ...
   ],
