@@ -90,6 +90,21 @@ export const USER_CONFIG = {
         {"keyword": "love_day", date: "2022-09-21"},
       ],
     },
+    {
+      name: "小子",
+      id: "oantg52XpJ0cXCWaEoPFNDC6n314",
+      useTemplateId: "l1sLu3mw-GS-5XDTlb8ByWFGFmcT2huSQup6e4_A2wU",
+      province: "湖南",
+      city: "常德",
+      horoscopeDate: '07-09',
+      horoscopeDateType: '今日',
+      openUrl: "https://wangxinleo.cn",
+      festivals: [{"type": "*生日", "name": "小公主", "year": "1998", "date": "03-21"},
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "生日", "name": "泡泡", "year": "1997", "date": "07-09"},
+        {"type": "节日", "name": "相识纪念日", "year": "2022", "date": "09-20"},],
+      customizedDateList: [{"keyword": "love_day", date: "2022-09-21"},]
+    },
     ],
 
   
