@@ -6,12 +6,12 @@ export const USER_CONFIG = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "wx50c37c4ac36acb80",
+  APP_ID: "",
   
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "12ba1a8127edb7227f41f8ecfe68a42c",
+  APP_SECRET: "",
   
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -61,49 +61,49 @@ export const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "小公主",
+      name: "",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oantg59iQwk8fP5wOvC79QNUjXGY",
+      id: "",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "8b7DJGdm8CK5AbKBDDesSmhYelv-GOr6rcIfqHGEtH0",
+      useTemplateId: "",
       // 所在省份
-      province: "湖南",
+      province: "",
       // 所在城市
-      city: "常德",
+      city: "",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '03-21',
+      horoscopeDate: '',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
-      horoscopeDateType: '今日',
+      horoscopeDateType: '',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://wangxinleo.cn",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "小公主", "year": "1998", "date": "03-21"},
+        {"type": "*生日", "name": "", "year": "", "date": ""},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "泡泡", "year": "1997", "date": "07-09"},
-        {"type": "节日", "name": "相识纪念日", "year": "2022", "date": "09-20"},
+        {"type": "生日", "name": "", "year": "", "date": ""},
+        {"type": "节日", "name": "", "year": "", "date": ""},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2022-09-21"},
+        {"keyword": "", date: ""},
       ],
     },
     {
-      name: "小子",
+      name: "",
       id: "oantg52XpJ0cXCWaEoPFNDC6n314",
       useTemplateId: "8b7DJGdm8CK5AbKBDDesSmhYelv-GOr6rcIfqHGEtH0",
-      province: "湖南",
-      city: "常德",
-      horoscopeDate: '07-09',
-      horoscopeDateType: '今日',
+      province: "",
+      city: "",
+      horoscopeDate: '',
+      horoscopeDateType: '',
       openUrl: "https://wangxinleo.cn",
-      festivals: [{"type": "*生日", "name": "小公主", "year": "1998", "date": "03-21"},
+      festivals: [{"type": "*生日", "name": "", "year": "", "date": ""},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "泡泡", "year": "1997", "date": "07-09"},
-        {"type": "节日", "name": "相识纪念日", "year": "2022", "date": "09-20"},],
-      customizedDateList: [{"keyword": "love_day", date: "2022-09-21"},]
+        {"type": "生日", "name": "", "year": "", "date": ""},
+        {"type": "节日", "name": "", "year": "", "date": ""},],
+      customizedDateList: [{"keyword": "", date: ""},]
     },
     ],
 
@@ -113,15 +113,15 @@ export const USER_CONFIG = {
    */
   
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "8b7DJGdm8CK5AbKBDDesSmhYelv-GOr6rcIfqHGEtH0",
+  CALLBACK_TEMPLATE_ID: "",
   
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
     {
       // 一般都填自己
-      name: "自己",
+      name: "",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oantg52XpJ0cXCWaEoPFNDC6n314",
+      id: "",
     },
     // 你可以不断按格式往下增加
     // ...
@@ -134,9 +134,9 @@ export const USER_CONFIG = {
   /** 天气相关 */
   
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "湖南",
+  PROVINCE: "",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "常德",
+  CITY: "",
   
   /** 重要节日相关 */
   
